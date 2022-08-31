@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+*{
+    box-sizing: border-box;  /* this is done so that if we apply padding or border on any element its Actual Width isnot affected */
+}
+body{
+    background-color: rgb(161,100,223) ;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    align-items: center; /*CENTERS  HORIZONTALLY it needs width*/
+    justify-content: center; /*CENTERS  VERTICALLY its needs height  min-height*/
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+.btn{
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.btn:focus{
+    outline: none;
+}
